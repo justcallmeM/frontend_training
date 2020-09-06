@@ -1,0 +1,34 @@
+#productPresentation__container{
+  display:grid;
+  grid-template-rows:repeat(10,2vw);
+  grid-template-columns:repeat(10,1fr);
+  font-family: 'Rubik', sans-serif;
+  padding-bottom:10%;
+}
+
+#productPresentation__container img{
+  width:100%;  
+  grid-row:1/8;
+  grid-column:5/10;
+}
+
+#productPresentation__container-header{
+  grid-row:3/7;
+  grid-column:2/5;
+  font-size:3rem;
+  align-self:center;
+}
+
+#productPresentation__container-paragraph{
+  grid-row:7/10;
+  grid-column:2/6;
+  line-height:2.5rem;
+  align-self:center;
+  font-size:1.3rem;
+}
+
+#productPresentation__container-button{
+  grid-row:12;
+  grid-column:2/6;
+  align-self:center;
+}

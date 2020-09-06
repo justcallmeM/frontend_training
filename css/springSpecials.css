@@ -1,0 +1,23 @@
+#springSpecials__container{
+  font-family: 'Rubik', sans-serif;
+  font-size:0.9rem;
+  padding-bottom:5%;
+}
+
+#springSpecials__header{
+  text-align:center;
+}
+
+#springSpecials-slidingGalery__container{
+  list-style: none;
+  display:flex;
+}
+
+#springSpecials-slidingGalery__container li{
+  margin-left:4%;
+  
+}
+
+#springSpecials__button{
+  text-align:center;
+}
